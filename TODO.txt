@@ -1,0 +1,44 @@
+## Logistic Regression
+
+* Z score
+* Sigmoid
+* Classification and accuracy
+* Mean Absolute Error
+* Stepwise improvement.
+* Gradient Descent
+
+## Neural Networks 1
+
+* Simple Keras model doesn't learn XOR.
+* Model with a hidden layer does.
+* Plot decision boundaries of nodes.
+* Observe overall non-linear decision boundary for XOR.
+
+## Neural Networks 2
+
+* Bunch of XOR features.
+* Build an object-oriented network.
+* Calculate derivatives and activations by looping.
+* Run a Keras network to show again how good it can do.
+* Build our network and train it.
+* Use SGD with a batch size of one. They can observe how much faster
+  this was.
+
+## TODO
+
+* Have them write a numpy based version of the Neural Network code that
+  operates layerstyle.
+* Have them implement a neural network in TF. Train on MNIST.
+* Have them implement the convolution operation with Sobel operator.
+* Have them use Conv2d in TF and in Keras.
+* Regularization. Dropout.
+* Run model on AWS.
+* Do text generation exercise using an LSTM. Have them implement an LSTM
+  cell in tensorflow. Then have them do it again with Keras. Start
+  with just characters.
+* Next, introduce word2vec. Have them train word2vec. Use word2vec for
+  sentiment analysis maybe?
+* Implement Q-Learning or policy gradients? But should probably do this
+  for a very simple environment first. With a table version.
+* Sequence-to-sequence via an encoder/decoder.
+  * There's a stop token.
